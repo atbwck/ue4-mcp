@@ -1,0 +1,53 @@
+# Unreal Engine 构建产物
+Binaries/
+Intermediate/
+Build/
+Saved/
+DerivedDataCache/
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Python 环境、缓存和构建产物
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+*.log
+
+# 本机配置与凭据
+.env
+.env.*
+!.env.example
+.mcp.json
+
+# Python 服务运行日志
+Python/logs/
+.pi/
+.codex/
+.claude/
+.workbuddy/
+.zcode/
+opencode.json
+opencode.jsonc
+
+# Local-only records and configuration
+.audit/
+.codegraph/
+.codex/
+*.pid
+*.orig
+*.bak
+*.patch
+*.uproject
+*.uasset
+*.umap
+*.local.*
